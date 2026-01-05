@@ -1,0 +1,10 @@
+:root {
+  --font-roboto-mono: "Roboto Mono", monospace;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-roboto-mono);
+}

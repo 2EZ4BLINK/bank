@@ -1,9 +1,4 @@
-import { Roboto_Mono } from "next/font/google";
-
-const robotoMono = {
-  variable: "--font-roboto-mono",
-  subsets: ["latin"],
-};
+import "./global.css";
 
 export const metadata = {
   title: "Use Reducer Bank",
@@ -13,7 +8,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${robotoMono.variable}}`}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
